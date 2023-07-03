@@ -1,0 +1,54 @@
+body {
+  overflow-x: hidden !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: cursive-text;
+  src: url(GreatVibes-Regular.ttf);
+}
+
+.cursive-font {
+  font-family: cursive-text;
+}
+
+#hero {
+  background-color: #800000;
+  display: flex;
+  width: 100vw !important;
+  height: 100vh;
+  margin: 0px !important;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+#hero img {
+  background-color: #000137;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bg-blue {
+  background-color: #000137;
+}
+
+.lead {
+  color: antiquewhite;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-details.end {
+  align-items: flex-end;
+}
+
+#existing-projects,
+#upcoming-projects,
+#live-performances {
+  min-height: 50vh;
+}
