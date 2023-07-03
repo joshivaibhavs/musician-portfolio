@@ -4,6 +4,10 @@ body {
   flex-direction: column;
 }
 
+* {
+  overflow-x: hidden !important;
+}
+
 @font-face {
   font-family: cursive-text;
   src: url(GreatVibes-Regular.ttf);
@@ -27,6 +31,29 @@ body {
   background-color: #000137;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.lh-unset {
+  line-height: unset !important;
+}
+
+#name-and-info * {
+  overflow-x: unset !important;
+}
+
+@media only screen and (max-width: 991px) {
+  #name-and-info {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30vh;
+    justify-content: flex-start;
+  }
+
+  #hero img {
+    margin-top: 30px;
+  }
 }
 
 .bg-blue {
