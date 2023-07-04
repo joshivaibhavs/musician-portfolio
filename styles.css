@@ -64,6 +64,16 @@ body {
   color: antiquewhite;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .project-details {
   display: flex;
   flex-direction: column;
