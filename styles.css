@@ -4,10 +4,6 @@ body {
   flex-direction: column;
 }
 
-* {
-  overflow-x: hidden !important;
-}
-
 @font-face {
   font-family: cursive-text;
   src: url(GreatVibes-Regular.ttf);
@@ -25,6 +21,11 @@ body {
   margin: 0px !important;
   flex-grow: 1;
   flex-direction: row;
+  overflow: hidden;
+}
+
+#hero * {
+  overflow-x: hidden !important;
 }
 
 #hero img {
@@ -88,4 +89,10 @@ body {
 #upcoming-projects,
 #live-performances {
   min-height: 50vh;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
